@@ -1,6 +1,17 @@
+export const candidatePath = {
+  name: 'I am a(n)',
+  value: 'role',
+  choices: [
+    'Engineer',
+    'Desinger',
+    'Data Scientist',
+    'Mentor'
+  ]
+}
+
 export const engineerSkills = {
   name: 'My skill set includes: ',
-  value:'engineerSkillset',
+  value:'engineer_skillset',
   choices: [
     'Graph Database',
     'Machine Learning',
@@ -17,7 +28,7 @@ export const engineerSkills = {
 
 export const engineerTech = {
   name: 'I am comfortable with the following technologies: ',
-  value: 'engineerTechs',
+  value: 'engineer_techs',
   choices: [
     'React',
     'Node',
@@ -35,7 +46,7 @@ export const engineerTech = {
 
 export const designerSkills = {
   name: 'I would like to focus on: ',
-  value: 'designSkillset',
+  value: 'design_skillset',
   choices: [
     'User Research',
     'Interaction Design',
@@ -49,7 +60,7 @@ export const designerSkills = {
 
 export const designerTech = {
   name: 'My skillset includes',
-  value: 'designTechs',
+  value: 'design_techs',
   choices: [
     'Clickable Prototyping',
     'Interactive Prototyping',
@@ -65,7 +76,7 @@ export const designerTech = {
 
 export const dataSciSkills = {
   name: 'I am comfortable in the following areas: ',
-  value: 'dataSciSkillset',
+  value: 'data_sci_skillset',
   choices: [
     'Python',
     'R Programming',
@@ -108,7 +119,7 @@ choices: [
 
 export const helpOptions =  {
   name: 'I would love to help with',
-  value: 'helpWith',
+  value: 'help_with',
   choices:[ 
     '1:1 Mentoring',
     'Group Presentations',
@@ -120,7 +131,7 @@ export const helpOptions =  {
 
 export const helpDates = {
   name: 'I am available to help out: ',
-  value: 'availDates',
+  value: 'avail_dates',
   choices: [
     'Monthly',
     'Weekly',
@@ -139,6 +150,10 @@ export const pronouns = {
     'They, Them, Theirs'
   ]
 }
+
+export const paths = [
+  candidatePath
+]
 
 export const pronounField = [
   pronouns
